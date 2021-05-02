@@ -1,0 +1,17 @@
+Stashing Command
+
+-git stash drop stashid(Used to drop stash from stash list)
+-git stash save "msg"(Used to save work in stash)
+-git stash list(display stash list)
+-git diff(check diff)
+-git stash pop(saves the chnges of stash on branch & master)
+
+steps for stashing
+
+-create new branch
+-checkout to new branch
+-modify existing file dont add or commit chnges
+-run git stash save "msg"
+-run git stash list
+now chnges are save locally master copy is not affected.
+-run git stash pop(ths will make chnges reflect on master)
